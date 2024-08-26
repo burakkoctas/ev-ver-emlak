@@ -71,6 +71,7 @@ const PropertyForm = ({ onAddProperty }) => {
           <Option value="Edirne">Edirne</Option>
           <Option value="Antalya">Antalya</Option>
           <Option value="Bursa">Bursa</Option>
+          <Option value="Manisa">Manisa</Option>
           {/* Diğer iller */}
         </Select>
       </Form.Item>

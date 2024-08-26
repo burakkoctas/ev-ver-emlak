@@ -23,7 +23,7 @@ const Header = () => {
       </div>
       {username && (
         <div style={{ display: 'flex', alignItems: 'center' ,marginRight:40}}>
-          <h1 style={{ marginRight: 30 }}>Hoşgeldin {username}</h1>
+          <h1 style={{ marginRight: 30 ,fontFamily: "sans-serif" , fontSize: "20px"}}>Hoşgeldin {username}</h1>
           <Button onClick={handleLogout}>Çıkış Yap</Button>
         </div>
       )}

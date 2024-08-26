@@ -112,6 +112,7 @@ const PropertyManagementPage = () => {
     { label: 'Antalya', value: 'Antalya' },
     { label: 'Edirne', value: 'Edirne' },
     { label: 'Bursa', value: 'Bursa' },
+    {label: "Manisa", value: "Manisa"}
   ];
 
   const handleFilterButton = () => {
